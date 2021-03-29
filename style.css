@@ -18,33 +18,9 @@ body {
     min-height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: var(--darkCyan);
-}
-
-svg {
-    position: fixed;
-    opacity: 0.6;
-}
-
-svg:first-of-type {
-    top: -50vh;
-    left: -22vw;
-}
-
-svg:last-of-type {
-    bottom: -70vh;
-    right: -20vw;
-}
-
-@media (orientation: portrait) {
-    svg:first-of-type {
-        top: -100vh;
-        left: -190vw;
-    }
-
-    svg:last-of-type {
-        bottom: -100vh;
-        right: -190vw;
-    }
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
