@@ -2,6 +2,6 @@
 ---
 ### Name: Profile card component 
 ---
-link
-
+[GithubPages Link](https://fytrw.github.io/Profile-card-component/)
+[Vercel Link](https://profile-card-component-one-beige.vercel.app/)
 
